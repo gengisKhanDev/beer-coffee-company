@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/fondo.jpg);
+  font-family: 'Raleway', sans-serif;
+  background-repeat: repeat;
+}
+
+.titulo {
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 2px;
+  color: #f1de7e;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+}
+
+.subtitulo {
+  margin: 0;
+  color: #f1de7e;
+  display: inline;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 10);
+}
+
+.sabor {
+  color: #fff;
+  margin: 7px 0;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+  font-family: 'Dancing Script', cursive;
+  margin-top: 0;
+}
+
+.linea-division {
+  width: 80%;
+  height: 2px;
+  background-color: #36221c;
+}
+
+.carousel {
+  height: 530px !important;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  position: absolute;
+  width: auto !important;
+  height: 350px !important;
+  z-index: -1;
+}
+
+.navP {
+  background-color: rgba(185, 95, 11, 0.842);
+}
+
+.tm-nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carta-bcc {
+  text-align: center;
+  min-width: 70%;
+}
+
+.instagram {
+  min-width: 10%;
+  text-align: center;
+}
+
+.facebook {
+  min-width: 10%;
+  text-align: center;
+}
+
+.whatsapp {
+  min-width: 10%;
+  text-align: center;
+}
+
+/* Responsive design */
+@media screen and (max-width: 700px) {
+  .carta-bcc {
+    text-align: center;
+    min-width: 70%;
+  }
+  .subtitulo {
+    font-size: 45px;
+  }
+  .sabor {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carta-bcc {
+    text-align: center;
+    min-width: 68%;
+  }
+  .subtitulo {
+    font-size: 44px;
+  }
+  .sabor {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carta-bcc {
+    text-align: center;
+    min-width: 60%;
+  }
+  .subtitulo {
+    font-size: 34px;
+  }
+  .sabor {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carta-bcc {
+    text-align: center;
+    min-width: 54%;
+  }
+  .instagram {
+    text-align: center;
+    max-width: 14%;
+    justify-content: center;
+  }
+  .facebook {
+    text-align: center;
+    max-width: 14%;
+  }
+  .whatsapp {
+    text-align: center;
+    max-width: 15%;
+  }
+  .subtitulo {
+    font-size: 30px;
+  }
+  .sabor {
+    font-size: 34px;
+  }
+}
+
+img {
+  box-shadow: inset 15px 15px 15px rgb(255, 120, 0), 0 0 40px rgb(255, 120, 0);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* rgba(171,138,88,255) */
