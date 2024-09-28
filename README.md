@@ -25,7 +25,7 @@ La página está diseñada para mostrar el menú de **BCC**, que incluye una var
 Este es un proyecto estático simple, por lo que no necesita instalación de dependencias. Simplemente clona el repositorio y abre el archivo `index.html` en tu navegador:
 
 ```bash
-git clone https://github.com/harakiriOP/bcc-cafe-bar.git
+git clone https://github.com/harakiriOP/beer-coffee-company.git
 cd bcc-cafe-bar
 ```
 
